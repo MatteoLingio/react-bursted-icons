@@ -1,0 +1,15 @@
+svg{
+    height: 50px;
+    width: 50px;
+    fill: red;
+}
+
+.container{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 200px;
+}
