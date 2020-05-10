@@ -5,7 +5,7 @@ import IconBurst from "../IconBurst/IconBurst";
 function Usage() {
   return (
     <div className={"container"}>
-      <IconBurst pulse={true}>
+      <IconBurst pulse={true} color={"blue"}>
         <svg
           id="clapIcon"
           xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@ function Usage() {
           <path d="M-527.2 399.1l20.9-21.4c2.2 2.2 2.7 2.6 3.5 4.5.8 1.8 1 5.4-1.6 8l-11.8 12.2c-.5.5-.4 1.2 0 1.7.5.5 1.2.5 1.7 0l34-35c1.9-2 5.2-2.1 7.2-.1 2 1.9 2 5.2.1 7.2l-24.7 25.3c-.5.5-.4 1.2 0 1.7.5.5 1.2.5 1.7 0l28.5-29.3c2-2 5.2-2 7.1-.1 2 1.9 2 5.1.1 7.1l-28.5 29.3c-.5.5-.4 1.2 0 1.7.5.5 1.2.4 1.7 0l24.7-25.3c1.9-2 5.1-2.1 7.1-.1 2 1.9 2 5.2.1 7.2l-24.7 25.3c-.5.5-.4 1.2 0 1.7.5.5 1.2.5 1.7 0l14.6-15c2-2 5.2-2 7.2-.1 2 2 2.1 5.2.1 7.2l-27.6 28.4c-11.6 11.9-30.6 12.2-42.5.6-12-11.7-12.2-30.8-.6-42.7m18.1-48.4l-.7 4.9-2.2-4.4m7.6.9l-3.7 3.4 1.2-4.8m5.5 4.7l-4.8 1.6 3.1-3.9" />
         </svg>
       </IconBurst>
-      <IconBurst>
+      <IconBurst pulse={true} color={"red"}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 48 60"
@@ -28,9 +28,21 @@ function Usage() {
           </g>
         </svg>
       </IconBurst>
-      <IconBurst>
+      <IconBurst pulse={true} color={"red"}>
         <svg
-          style={{fontSize : '10px'}}
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 60"
+          x="0px"
+          y="0px"
+        >
+          <title>50-Love ui mobile app interface web</title>
+          <g data-name="50-Love">
+            <path d="M33,5a13,13,0,0,0-9,3.64A13,13,0,1,0,6.12,27.48a1.24,1.24,0,0,0,.17.23l17,17a1,1,0,0,0,1.42,0l17-17a1.12,1.12,0,0,0,.16-.22A13,13,0,0,0,33,5Zm7.26,21.25a.89.89,0,0,0-.22.3l-16,16-16-16a.82.82,0,0,0-.24-.32A11,11,0,1,1,23.25,10.74a1,1,0,0,0,1.5,0A11,11,0,1,1,40.26,26.25Z" />
+          </g>
+        </svg>
+      </IconBurst>
+      <IconBurst pulse={true} color={"blue"}>
+        <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 64 80"
           x="0px"

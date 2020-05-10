@@ -2,6 +2,7 @@ svg{
     height: 50px;
     width: 50px;
     fill: red;
+    stroke: black;
 }
 
 .container{
